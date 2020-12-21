@@ -1,0 +1,110 @@
+body {
+  background-color: #edf2f7;
+  color: #2d3748;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+
+h1 {
+  font-size: 2rem;
+  width: 100%;
+}
+
+.container {
+  width: 100%;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.actions {
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.addContainer {
+  display: flex;
+  align-items: center;
+}
+
+.movie {
+  background-color: #f7fafc;
+  width: 416px;
+  margin: 12px;
+  border-top: solid 2px #fff;
+  border-radius: 8px;
+  padding: 12px;
+  box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1),
+    0 4px 6px -2px rgba(0, 0, 0, 0.05);
+}
+
+.movieActions {
+  display: flex;
+}
+
+.movieActions div {
+  cursor: pointer;
+}
+
+.movieActions div[disabled] {
+  cursor: not-allowed;
+  opacity: 0.5;
+}
+
+.field {
+  display: flex;
+  justify-content: flex-start;
+  margin-top: 2px;
+}
+
+.label {
+  font-weight: bold;
+  font-size: 1rem;
+  width: 6rem;
+  text-align: left;
+  min-width: 160px;
+}
+
+.value {
+  color: #4a5568;
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  text-align: start;
+}
+
+.text .value {
+  font-style: italic;
+}
+
+.paginationWrapper {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  padding: 12px;
+}
+
+.addDialogNotice {
+  font-size: 16px;
+  color: red;
+}
+
+.addDialog div.MuiTextField-root{
+  width: 100%;
+}
+
+.addDialog Select{
+  width: 100%;
+}
+
+.addDialog div.MuiInput-root{
+  width: 100%;
+}
+
+.addDialog div.field {
+  min-height: 42px;
+  display: flex;
+  align-items: center;
+}
